@@ -1,0 +1,333 @@
+body{
+    /* position: relative; */
+    padding-bottom: 50px;
+    
+}
+/* menu atas */
+
+.nav-atas{
+    height: 30px;
+    background-color: #f4f4f4;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    margin-right: -60px;
+    z-index: 3;
+    width: 100%;
+
+} 
+.nav-atas ul li a{
+    margin: 5px;
+}
+.spacer {
+    float: left;
+    width: 1px;
+    height: 12px;
+    margin: 16px 0 0;
+    padding: 0;
+    background: #ddd;
+    overflow: hidden;
+}
+  
+.dropdown {
+    position: relative;
+    display: inline-block;
+ }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+}
+.dropdown:hover .dropdown-content {display: block;}
+ 
+table a{
+    text-decoration:none;
+    color: black;
+}
+.img-user{
+    width: 60px;
+    border-radius: 40px;
+    margin-left: 10px;
+    margin-right: -10px;
+}
+ul.dropdown-menu{
+    background-color: #f4f4f4;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-shadow: 0px 2px 8px 0px black ;
+    width: 299px;
+}
+.img-member{
+    margin: -20px 0 0 -5px;
+}
+.colorg{
+    margin-top: -40px;
+    background-color: #f4f4f4;
+}
+.member-benefit{
+    font-size: 14px;
+    background-color: white;
+    height: 30px;
+    text-align: center;
+    padding-top: 5px;
+    text-decoration: none;
+}
+.member-benefit a{
+    text-decoration: none;
+    color:#C81623;
+}
+.keluar a:hover{
+    color: #c81423;
+}
+/* END MENU ATAS */
+
+/* AWAL LOGO */
+.navbar-bawah{
+    z-index: 1;
+    margin-top: -35px;
+    background-color:white;
+    height: 117px;
+    overflow: hidden;
+}
+.inputan{
+    background-color:#c81423;
+    width: 610px;
+    margin-left: 23px;
+}
+.formedit{
+    width: 546px;
+    height: 38px;
+    background-color:#e6e6e6;
+    border: 0;
+    padding-left: 10px;
+    font-size: 15px;
+}
+.cari{
+    color: white;
+    padding-left: 10px;
+}
+
+.keranjang{
+    margin-right: -95px ;
+    color: #C81623;
+    font-size: 24px;
+
+}
+.troli{
+    margin-right: 8px;
+    font-family: Arial, Verdana;
+    background-color:rd;
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+
+}
+.hot{
+    height: 24px;
+    width: 610px;
+    margin-left: 415px;  
+    text-align: center;
+    margin-top: -5px;
+}
+
+.hot .nav-link{
+    color:#666;
+    padding: 5px;
+    font-size: 12px;
+    margin-left: 10px;
+    z-index: 3;
+}
+/* AKHIR NAV BAWAH */
+
+
+/* AWAL TAB KATEGORI */
+.tab{
+    height: 45px;
+    width: 100%;
+    border-bottom: 1px solid #c81423 ;
+    padding-left: 250px;
+}
+
+.tab .nav .nav-item{
+    background-color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+.tab .nav .nav-item .nav-link{
+    color:black;
+}
+
+.tab .nav .nav-item .nav-link:hover{
+    color:#df0414;
+}
+.tab .nav .nav-item .kategori {
+    width: 245px;
+    height: 44px;
+    line-height: 45px;
+    background: #c81423;
+    font-size: 18px;
+    color: #fff;
+    text-align: center;
+    margin-left:-120px;
+    font-weight: normal;
+}
+.tab .nav .nav-item .kategori:hover {
+    color: white;
+}
+.tab .nav .nav-item .dropdown-menu{
+    background-color:#e6e6e6;
+    width: 245px;
+    box-shadow: none;
+    border-radius: 0;
+}
+
+/* AKHIR TAB KATEGORI */
+
+
+/* AWAL BARANG BARANG */
+.container-fluid{
+    background-color: #f5f5f5;
+}
+.alamat{
+    margin: 30px 0 0 490px;
+
+}
+
+.container .row .col{
+    margin: 30px 0 10px 70px;
+}
+
+.container .col{
+    color: #c81423;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+}
+.container .col span{
+    color: #c81423;
+    font-family: Arial;
+    font-size: 14px;
+    margin-left: 10px;
+    font-weight: 700;
+}
+.container.col-md-3{
+    margin-left: 930px;
+    margin-top: -30px;
+    
+}
+.tabel{
+    background-color: #f5f5f5;
+    margin-left: 0px 70px 10px 70px ;
+    text-align: center;
+   }
+table{
+    font-size: 14px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+
+}
+.headtoko{
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.05);
+    
+
+}
+.cek{
+    height: 47px;
+    width: 133px;
+    background-color: darkgldenrod;
+    
+}
+.barang{
+    width: 350px;
+}
+.jumlah{
+    width: 180px;
+    margin: 0;
+    padding: 0;
+}
+.sub{
+    width: 500px;
+    text-align: left;
+    padding-left: 30px;
+}
+.counter button{
+    padding: 0;
+    margin: 0%;
+   width: 20px;
+   height: 20px;
+   color: white;
+   background-color: #acacac;
+}
+.input-number{
+    width: 42px;
+    height: 18px;
+   
+}
+.harga{
+    width: 145px;
+}
+.subtotal{
+    width: 220px;
+    text-align: left;
+    text-align: center;
+    font-weight: bold;
+}
+.toko{
+    width: 300px;
+    text-align: left;
+}
+.namatoko{
+    font-weight: 700;
+}
+
+.live{
+    text-align: center;
+    width: 220px;
+}
+
+.cekhapus{
+    height: 70px;
+    width: 200px;
+}
+.pieces{
+    width:550px;
+    text-align: right;
+}
+.total{
+    width: 200px;
+    text-align: left;
+    font-family: Arial;
+    padding: 5px;
+}
+.total h4{
+    color:#C81623;
+}
+.checkout{
+    width: 170px;
+    padding: 0;
+    margin: 0;
+}
+.checkout button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 170px;
+    border: 0;
+    height: 80px;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: #c81423
+}
+
+.footer-checkout{
+   position:fixed; 
+    /* position: relative; */
+    top: 600px;
+    margin: auto;
+}
